@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.scss">
+</head>
+<body>
+    <div class="form-card">
+        <div class="title">Food delivery</div>
+        <form action="/" method="" >
+            <div class="field">
+                <input type="text" placeholder="First Name" />
+            </div>
+            <div class="field">
+                <input type="text" placeholder="Last Name" />
+            </div>
+            <div class="field">
+                <input type="email" placeholder="Email" />
+            </div>
+              <div class="field">
+                <input type="tel" placeholder="phone" />
+            </div>
+
+            <p>What favorite food delivery application?</p>
+            <input type="radio" id="Grab" name="Favorite_app" value="Grab">
+            <label for="Grab">Grab Food</label><br>
+            <input type="radio" id="LINE" name="Favorite_app" value="LINE">
+            <label for="LINE">LINE MAN</label><br>
+            <input type="radio" id="panda" name="Favorite_app" value="panda">
+            <label for="panda">foodpanda</label>
+          
+            
+            <p>Reason</p>
+            <div class="txtarea">
+                <textarea id="reason2like" name="reason2like" rows="4" cols="auto">
+                </textarea>
+            </div>
+
+            <div class="field field-submit">
+                <input type="submit" value="Save" class="btn-submit" />
+            </div>    
+        </form>
+
+    </div>
+</body>
+</html>

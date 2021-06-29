@@ -1,0 +1,70 @@
+body {
+    background: #f4c4f3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #fc67fa, #f4c4f3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #fc67fa, #f4c4f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-repeat: no-repeat;   
+    
+}
+
+html {
+    height: 100%;
+  }
+
+.form-card {
+    width: 30%;
+    margin: 3rem auto;
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 1.75rem 2.75rem; //เว้นระยะจากขอบ ค่าแรกบนล่าง ค่าที่สองซ้านขวา
+    box-sizing: border-box; //ไม่ให้เกินขอบ
+
+    .title {
+        background-color: #50007e;
+        font-size: 2.5rem;
+        line-height: 1.5rem;
+        color: white;
+        text-align: center;
+        padding: 1rem;
+        margin: -1.75rem -2.75rem 1.75rem -2.75rem;
+        border-radius: 12px 12px 0 0;
+        font-family: "Akaya Kanadaka";
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"] {
+      padding: 0.45rem 1rem;
+      margin-bottom: 0.75rem;//ระยะห่างจากด้านล่าง
+      border-radius: 6px;
+      flex-grow: 1;
+  
+      &::placeholder { color: rgb(99, 96, 96); }
+    }
+
+    .field { 
+        display: flex;
+    }
+
+    textarea {
+        width: 100%;
+        border-radius: 6px;
+        border-width:2px;
+
+    }
+
+    .btn-submit {
+        padding: 0.5rem 1.25rem;
+        font-size: 1.125rem;
+        font-weight: 700;
+        font-family: 'Akaya Kanadaka';
+        border-radius: 10px;
+        border: none;
+        background-color: #63088dfa;
+        color: #cdf7cd;
+      }
+      .field-submit {
+        justify-content: flex-end;
+      }
+    
+     
+}
